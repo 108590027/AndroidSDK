@@ -47,7 +47,7 @@
                 android:layout_margin="8sp"
                 android:onClick="count_click"
                 android:text="@string/show_count"
-                app:backgroundTint="#122EE8"
+                app:backgroundTint="#00F631"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.494"
