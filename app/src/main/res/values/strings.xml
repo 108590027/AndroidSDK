@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">Hello Constraint</string>
-    <string name="show_toast">toast</string>
+    <string name="app_name">Hello Toast</string>
+    <string name="show_toast">say hello</string>
     <string name="show_zero">zero</string>
     <string name="show_count">count</string>
     <string name="text_count">0</string>
+    <string name="say_hello">hello!\n</string>
 </resources>
