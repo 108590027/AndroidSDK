@@ -8,8 +8,6 @@ import android.widget.TextView;
 
 public class MainActivity2 extends AppCompatActivity {
 
-    //private TextView textBox = (TextView) findViewById(R.id.text_header);
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
