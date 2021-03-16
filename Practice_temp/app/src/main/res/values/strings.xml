@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">twoActivity_practice</string>
+    <string name="toMain2">set number</string>
+    <string name="show_zero">zero</string>
+    <string name="show_count">count</string>
+    <string name="text_count">0</string>
+    <string name="say_hello">Now the count is:\n</string>
+    <string name="button_main">reply</string>
+    <string name="editText_main">Enter the number you want to set</string>
+</resources>

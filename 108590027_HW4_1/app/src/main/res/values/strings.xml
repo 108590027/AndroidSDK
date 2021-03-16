@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">108590027_HW4_1</string>
+    <string name="toMain2">set number</string>
+    <string name="text_count">0</string>
+    <string name="button_main">Count</string>
+    <string name="editText_main">Enter the text</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="419dp"
+        android:layout_height="245dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-8dp">
+
+        <TextView
+            android:id="@+id/TextView_Count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/text_count"
+            android:textSize="20pt" />
+
+        <Button
+            android:id="@+id/button_Count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0"
+            android:backgroundTint="@color/gray"
+            android:onClick="countUp"
+            android:text="@string/button_main"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editText_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textLongMessage"
+            android:textAlignment="center"
+            android:hint="@string/editText_main" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
