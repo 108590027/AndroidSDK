@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="0dp"
             android:onClick="toast_click"
-            android:text="@string/show_toast"
+            android:text="@string/toMain2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="MissingConstraints"
