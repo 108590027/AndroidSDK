@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">108590027_HW4_2</string>
+    <string name="text_web">https://www.google.com.tw/</string>
+    <string name="button_web">open website</string>
+    <string name="text_map">Taipei 101</string>
+    <string name="button_map">open location</string>
+    <string name="text_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">share this text</string>
+    <string name="button_camera">take a picture</string>
+</resources>
