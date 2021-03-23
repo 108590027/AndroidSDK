@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">108590027_HW5_1</string>
+    <string name="text">0.0</string>
+    <string name="edit">input a number</string>
+    <string name="addButton">add</string>
+    <string name="subButton">sub</string>
+    <string name="divButton">div</string>
+    <string name="mulButton">mul</string>
+    <string name="powButton">pow</string>
+    <string name="computationError">Error</string>
+</resources>
