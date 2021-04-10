@@ -18,6 +18,7 @@ package com.example.android.droidcafe;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
@@ -32,6 +33,7 @@ import android.widget.Toast;
  * with the intent to launch this activity.
  */
 public class OrderActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,5 +102,19 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
             default:
                 break;
         }
+    }
+
+    public void chooseDate(View view){
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getSupportFragmentManager(),"datePicker");
+    }
+
+    public void processDatePickerResult(int year, int month, int day) {
+        String month_string = Integer.toString(month+1);
+        String day_string = Integer.toString(day);
+        String year_string = Integer.toString(year);
+        String dateMessage = (year_string + "/" + month_string + "/" + day_string);
+        Toast.makeText(this, "Date: " + dateMessage, Toast.LENGTH_SHORT).show();
+
     }
 }
