@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -14,9 +15,22 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/word"
+            android:id="@+id/word_title"
             style="@style/word_title"
             android:text="TextView" />
+
+        <TextView
+            android:id="@+id/word_content"
+            style="@style/word_normal"
+            tools:text="@tools:sample/lorem" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="?android:attr/listDivider" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">108590027_HW7_2</string>
+    <string name="title1">Coffee</string>
+    <string name="content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sollicitudin magna eget faucibus vehicula. Fusce sollicitudin nisl ac nibh vestibulum laoreet. Suspendisse dapibus magna et odio semper, ac vehicula massa dictum. Vivamus eget iaculis dui. Nam iaculis, diam et dapibus.</string>
+    <string name="title2">Donut</string>
+    <string name="content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis consectetur pharetra. Integer eu massa convallis, facilisis orci vel, varius.</string>
+    <string name="title3">Froyo</string>
+    <string name="content3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat venenatis eros, vel convallis mi tincidunt id. Vestibulum quis mattis sapien, quis semper turpis. Cras.</string>
+    <string name="title4">Ice cream</string>
+    <string name="content4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus nisi, sodales sit amet sapien nec, volutpat viverra sem. Integer scelerisque dui lectus, in placerat leo suscipit sed. Duis enim.</string>
+    <string name="lone_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a justo posuere, tristique arcu ac, varius lectus. Pellentesque lobortis quam non hendrerit ultricies. Nam suscipit tortor ex, sed scelerisque sapien facilisis eget. Suspendisse neque sapien, tempor non risus nec, volutpat suscipit mauris. Etiam mollis facilisis orci. Etiam id ultrices dui, eu vulputate quam. Nullam mollis nisi quis magna venenatis auctor. Morbi vitae gravida orci. Fusce ac egestas ante, vel dictum lorem. Ut tincidunt rhoncus pretium.\n\n
+Phasellus dignissim mattis neque ut euismod. Nunc sit amet lectus faucibus, tincidunt purus molestie, accumsan elit. Etiam nec est enim. Morbi vel molestie enim. Praesent in luctus mi. Fusce sollicitudin laoreet erat, a venenatis dui convallis venenatis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu eros sed dui pellentesque suscipit nec a eros. Proin sit amet quam egestas metus bibendum gravida a eget erat.\n\n
+Pellentesque mattis dolor a ante fringilla pretium eget sed lectus. Sed in faucibus magna. In ultricies vel neque quis tincidunt. Cras scelerisque, quam ut congue molestie, mauris nisi pellentesque dolor, non consequat nibh lorem vel ipsum. Aenean venenatis augue id interdum rhoncus. Nulla vestibulum nibh sit amet tellus finibus, ut luctus velit pharetra. Donec lobortis dolor ut ipsum fringilla, eu porta enim tempor. Etiam sollicitudin leo ex, nec suscipit ex vulputate id. Donec sit amet pulvinar massa, quis finibus quam. Nulla at iaculis elit, ac vehicula ligula. Morbi est mi, tempor ut dui varius, pellentesque gravida leo. Aenean id bibendum orci.</string>
 </resources>
