@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">108590027_HW7_1</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="donut">You tap the donut</string>
+    <string name="froyo">You tap the froyo</string>
+    <string name="ice_cream">You tap the ice cream</string>
+    <string name="act_main">Main Activity</string>
+    <string name="act_donut">donut</string>
+    <string name="act_froyo">froyo</string>
+    <string name="act_ice">ice cream</string>
 </resources>
