@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -12,11 +13,16 @@ public class MainActivity extends AppCompatActivity {
     private int level = 4;
     private ImageView mImg;
     private TextView mText;
+    private Button mPlus;
+    private Button mMinus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mPlus = findViewById(R.id.button_plus);
+        mMinus = findViewById(R.id.button_minus);
 
         mImg = findViewById(R.id.imageView);
         mImg.setImageLevel(level);
@@ -30,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
             level += 1;
             mImg.setImageLevel(level);
         }
+        if(level == 7){
+            mPlus.setClickable(false);
+        }
+        mMinus.setClickable(true);
         mText.setText(String.valueOf(level));
     }
 
@@ -38,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
             level -= 1;
             mImg.setImageLevel(level);
         }
+        if(level == 1){
+            mMinus.setClickable(false);
+        }
+        mPlus.setClickable(true);
         mText.setText(String.valueOf(level));
     }
 }
