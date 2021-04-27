@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Put initial data into the word list.
-        //lorem site: https://www.lipsum.com/
         mWordList_title.addLast(getString(R.string.title1));
         mWordList_content.addLast(getString(R.string.content1));
         mWordList_title.addLast(getString(R.string.title2));

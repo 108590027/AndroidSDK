@@ -39,7 +39,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
             String element_title = mTitleList.get(mPosition);
             String element_content = mWordList.get(mPosition);
             // Change the word in the mWordList.
-            //mTitleList.set(mPosition, "Clicked! " + element);
+            //mWordList.set(mPosition, "Clicked! " + element);
             // Notify the adapter, that the data has changed so it can
             // update the RecyclerView to display the data.
             mAdapter.notifyDataSetChanged();
