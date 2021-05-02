@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int level = 4;
+    private int level = 3;
     private ImageView mImg;
     private TextView mText;
     private Button mPlus;
@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void battery_plus(View view){
-        if(level < 7){
+        if(level < 6){
             level += 1;
             mImg.setImageLevel(level);
         }
-        if(level == 7){
+        if(level == 6){
             mPlus.setClickable(false);
         }
         mMinus.setClickable(true);
@@ -44,11 +44,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void battery_minus(View view){
-        if(level > 1) {
+        if(level > 0) {
             level -= 1;
             mImg.setImageLevel(level);
         }
-        if(level == 1){
+        if(level == 0){
             mMinus.setClickable(false);
         }
         mPlus.setClickable(true);
