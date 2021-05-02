@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
                 mAdapter.notifyItemMoved(from, to);
                 return true;
             }
-
             /**
              * Defines the swipe to dismiss functionality.
              *

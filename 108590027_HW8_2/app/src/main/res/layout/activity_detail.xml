@@ -27,6 +27,7 @@
             android:id="@+id/sportsImageDetail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:transitionName="shared_image"
             android:adjustViewBounds="true" />
 
         <TextView

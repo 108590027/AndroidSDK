@@ -16,9 +16,14 @@
 
 package com.example.android.a108590027_HW8_2;
 
+import android.app.Activity;
+import android.app.ActivityOptions;
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.widget.RecyclerView;
+import android.transition.TransitionSet;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -140,9 +145,10 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             Sport currentSport = mSportsData.get(getAdapterPosition());
             Intent detailIntent = new Intent(mContext, DetailActivity.class);
             detailIntent.putExtra("title", currentSport.getTitle());
-            detailIntent.putExtra("image_resource",
-                    currentSport.getImageResource());
-            mContext.startActivity(detailIntent);
+            detailIntent.putExtra("image_resource", currentSport.getImageResource());
+            ActivityOptions mAnimation = ActivityOptions.makeSceneTransitionAnimation((Activity) mContext, itemView,"shared_image");
+            //TransitionSet set = R.transition.m_trans;
+            mContext.startActivity(detailIntent,mAnimation.toBundle());
         }
     }
 }
