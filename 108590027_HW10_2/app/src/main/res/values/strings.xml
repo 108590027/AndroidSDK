@@ -5,4 +5,5 @@
     <string name="box2">https://</string>
     <string name="hint">www.example.com</string>
     <string name="btn">get page source</string>
+    <string name="page">Page source will appear here</string>
 </resources>
