@@ -1,0 +1,9 @@
+Q1.
+	app:layout_constraintBottom_toTopOf="@+id/button_count",
+	app:layout_constraintTop_toBottomOf="@+id/button_toast"
+Q2.
+	pp:layout_constraintLeft_toLeftOf="parent"
+Q3.
+	public void callMethod(View view)
+Q4.
+	Use the view parameter that is passed to the click handler with setBackgroundColor(): view.setBackgroundColor()

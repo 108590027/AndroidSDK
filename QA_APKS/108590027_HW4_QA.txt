@@ -1,0 +1,18 @@
+02.2
+Q1.
+	The counter is reset to 0, but the contents of the EditText is preserved.
+Q2.
+	Android shuts down your Activity by calling onPause(), onStop(), and onDestroy(),
+	and then starts it over again, calling onCreate(), onStart(), and onResume().
+Q3.
+	onSaveInstanceState() is called before the onStop() method.
+Q4.
+	onResume() or onCreate()
+	
+02.3
+Q1.
+	new Intent(String action)
+Q2.
+	All of the above.
+Q3
+	Intent takePicture = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

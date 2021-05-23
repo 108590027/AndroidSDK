@@ -1,0 +1,15 @@
+05.1
+Q1.
+	NinePatchDrawable
+Q2.
+	StateListDrawable
+Q3.
+	Theme.AppCompat.Light.DarkActionBar
+	
+05.2
+Q1.
+	colorPrimary
+Q2.
+	Design Support Library
+Q3.
+	Any color shade labeled 500.

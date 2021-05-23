@@ -1,0 +1,29 @@
+07.1
+Q1.
+	(1)先將time*100後除以目標時間，就會變成目前進度的百分比
+	(2)呼叫onProgressUpdate函式，在函式內用.setProgress設定ProgressBar的值
+Q2.
+	(1)URL
+	(2)Integer
+	(3)Long
+Q3.
+	Implement onProgressUpdate(). Call onProgressUpdate().
+	
+07.2
+Q1.
+	android.permission.INTERNET
+Q2.
+	In the manifest: request ACCESS_NETWORK_STATE permission
+	In the code: Use ConnectivityManager to check for an active network before connecting to the network.
+Q3.
+	In the Activity that displays the results of the task.
+	The Activity must implement LoaderManager.LoaderCallbacks.
+Q4.
+	A running AsyncTask becomes disconnected from the activity and stops running, preserving system resources.
+	A running AsyncTaskLoader automatically restarts execution of its task from the beginning.
+	The activity displays the results.
+Q5.
+	In onCreateLoader() in the activity, create an instance of the AsyncTaskLoader subclass.
+	In the loader's init() method, perform initialization tasks.
+Q6.
+	loadInBackground and onStartLoading 

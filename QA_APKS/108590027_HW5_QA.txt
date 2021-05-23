@@ -1,0 +1,16 @@
+03.2
+Q1.
+	Tests that are compiled and run entirely on your local machine with the Java Virtual Machine (JVM).
+Q2.
+	com.example.android.SimpleCalcTest (test)
+Q3.
+	@Test
+	
+04.1
+Q1.
+	Copy the image files into your project's drawable folder.
+Q2.
+	Add the android:onClick attribute to the ImageView in the layout and
+	use it to call the click handler in the Activity.
+Q3.
+	The click handler method must be public, return void, and define a View as its only parameter.

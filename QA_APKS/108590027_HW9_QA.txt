@@ -1,0 +1,15 @@
+05.3
+Q1.
+	Smallest screen width
+Q2.
+	res/values-fr-rCA/
+Q3.
+	res/values
+	
+06.1
+Q1.
+	Perform an action, match a view, and assert and verify the result.
+Q2.
+	@RunWith
+Q3.
+	onData() to load the adapter and enable the child View to appear on the screen.
