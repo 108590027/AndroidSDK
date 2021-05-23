@@ -1,0 +1,23 @@
+07.3
+Q1.
+	A message that the Android system sends when a system event occurs.
+Q2.
+	registerReceiver() and unRegisterReceiver().
+Q3.
+	Broadcast receivers can't see or capture the intents used to start an activity.
+	Using a broadcast intent, you can't find or start an activity.
+Q4.
+	LocalBroadcastManager
+	
+08.1
+Q1.
+	You use notification channels to group multiple notifications so that the user can control the notifications' behavior.
+	Notification channels are not yet available in the Android Support Library package.
+Q2.
+	NotificationManager.notify()
+Q3.
+	Click listener for the action button click event.
+Q4.
+	NotificationCompat.Builder.addAction()
+Q5.
+	PendingIntent.getService()
