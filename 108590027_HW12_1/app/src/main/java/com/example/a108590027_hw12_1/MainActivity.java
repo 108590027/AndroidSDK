@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     private NotificationManager mNotificationManager;
     private static final int NOTIFICATION_ID = 0;
     private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,13 +51,15 @@ public class MainActivity extends AppCompatActivity {
                     public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
                         String mToast = "";
                         if(isChecked){
-                            //deliverNotification(MainActivity.this);
                             if(alarmManager != null){
-                                Calendar mCalendar = Calendar.getInstance();
-                                mCalendar.set(Calendar.HOUR, 11);
-                                mCalendar.set(Calendar.MINUTE, 11);
-                                Log.d("calendar", mCalendar.toString());
-                                alarmManager.setExact(AlarmManager.RTC_WAKEUP, mCalendar.getTimeInMillis(), notifyPendingIntent);
+                                Calendar mCal = Calendar.getInstance();
+                                //mCal.set(Calendar.AM_PM, 0);
+                                //mCal.set(Calendar.HOUR_OF_DAY, 11);
+                                mCal.set(Calendar.HOUR, 11);
+                                mCal.set(Calendar.MINUTE, 11);
+                                mCal.set(Calendar.SECOND, 0);
+                                Log.d("calendar", mCal.toString());
+                                alarmManager.setExact(AlarmManager.RTC_WAKEUP, mCal.getTimeInMillis(), notifyPendingIntent);
                             }
                             mToast = "Set alarm at 11:11!";
                         }
@@ -88,14 +91,14 @@ public class MainActivity extends AppCompatActivity {
             // Create the NotificationChannel with all the parameters.
             NotificationChannel notificationChannel = new NotificationChannel
                     (PRIMARY_CHANNEL_ID,
-                            "Stand up notification",
+                            "11:11 notification",
                             NotificationManager.IMPORTANCE_HIGH);
 
             notificationChannel.enableLights(true);
             notificationChannel.setLightColor(Color.RED);
             notificationChannel.enableVibration(true);
             notificationChannel.setDescription
-                    ("Notifies every 15 minutes to stand up and walk");
+                    ("Notifies when the time is 11:11");
             mNotificationManager.createNotificationChannel(notificationChannel);
         }
     }
