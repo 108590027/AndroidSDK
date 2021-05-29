@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">108590027_HW12_1</string>
+    <string name="toggle_off">Alarm was disabled</string>
+    <string name="toggle_on">Alarm was enabled</string>
+</resources>
