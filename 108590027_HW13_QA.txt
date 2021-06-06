@@ -1,0 +1,18 @@
+09.1
+Q1.
+	onPause()
+Q2.
+	onCreate(Bundle savedInstanceState)
+Q3.
+	以09.2的DroidCafeWithSettings來說，shared preferences存使用者設定的資料；
+	 instance state存已下的訂單，關閉app後不保存，下次開啟就清空
+
+09.2
+Q1.
+	strings.xml
+Q2.
+	pref_general.xml
+Q3.
+	Use a settings activity that extends AppCompatActivity,
+	a fragment that extends PreferenceFragmentCompat,
+	and a SwitchPreferenceCompat for the UI.
